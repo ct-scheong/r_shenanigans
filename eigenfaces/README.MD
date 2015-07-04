@@ -1,0 +1,4 @@
+This algorithm uses <b>Principal Component Analysis</b> (PCA) to generate a set of eigenfaces (principal components) from a training set of front view headshots taken from Yale's database. It will use a smaller subset of the eigenfaces to generate a lower dimension version of an input photo. The more eigenfaces we allow, the more the output will resemble the original image.
+
+The first image below shows the first 9 eigenfaces, which accounts for a great majority of the variance between the photos. The second image shows the algorithm running on a test photo, while tweaking the number of eigenfaces used.
+<img src="https://raw.githubusercontent.com/datatista/machinelearningfun/master/eigenfaces/PCA_img1.png"> <img src="https://raw.githubusercontent.com/datatista/machinelearningfun/master/eigenfaces/PCA_img2.png">
