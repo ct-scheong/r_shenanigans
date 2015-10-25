@@ -21,13 +21,17 @@ On a week by week basis, the overall click rate for article links fluctuate betw
 
 Combining the type and the topic for each article id, we first come up with a combined grouping called “article type”. An example of an article type would be Business Development Blog Post. Even though Biz Dev News was in the top 5, it has a much lower click rate than the other article types. Thus, these types of articles should not be sent as frequently. 
 
+<img src="https://github.com/datatista/machinelearningfun/blob/master/adaboost/table1.png">
 <img src="https://github.com/datatista/machinelearningfun/blob/master/adaboost/plot5.png">
 
 Next, we take a look at the top article types with the highest click rates. These articles have a much higher than overall click rate of about 16.5%. The question now remains: why is there such a discrepancy? It may be that there is not a high enough level of customization in the email digests being sent.
 
+<img src="https://github.com/datatista/machinelearningfun/blob/master/adaboost/table2.png">
 <img src="https://github.com/datatista/machinelearningfun/blob/master/adaboost/plot4.png">
 
 An Adaboost model provides the predicted likelihood that a user would click an article link, based on factors such as type, topic, week, and user group. We can fine-tune the customization for each user using this clustering method, and applying a classification model such as Adaboost to determine the top 5 or top 10 article types preferred by each group.
+
+<img src="https://github.com/datatista/machinelearningfun/blob/master/adaboost/table3.png">
 
 <b>Conclusion:</b>
 
