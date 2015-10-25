@@ -1,0 +1,6 @@
+create table mytemp
+AS
+select content_id, email_id, user_id, email_content.article_id, author_id, topic_id, type_id, submission_time, topics.name
+from email_content right join articles
+on email_content.article_id = articles.article_id
+right join topics on articles.topic_id = topics.topic_id
