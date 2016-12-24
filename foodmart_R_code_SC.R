@@ -1,5 +1,5 @@
 #####################################################################################################
-# Title: FoodMart Data Analyst Project for Etsy
+# Title: FoodMart Data Analyst Project
 # Author: Ka Ieng Shery Cheong
 # Date Created: 12/1/2015
 #####################################################################################################
